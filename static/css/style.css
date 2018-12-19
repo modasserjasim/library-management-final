@@ -1,0 +1,104 @@
+.bg1{
+    background: url('../images/cover.jpg');
+    min-height:550px;
+    background: cover;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+.navbar ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-top: -1px;
+  -webkit-margin-top: -1px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: -1px;
+}
+nav-right{
+    float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+  float:right;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navbar .active {
+  background-color: #4CAF50;
+}
+.logo-text p{
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 14px;
+}
+
+.localib{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:30px;
+    margin-top: 60px;
+    border-radius: 0px 0px 60px 0px;
+}
+.localib h1{
+    color:#fff;
+}
+.localib h2{
+    color:#fff;
+}
+.localib h4{
+    color:#fff;
+}
+.localib p{
+    color:#fff;
+}
+.localib ul li{
+    color:#fff;
+}
+a{
+    color: #7a91ff;
+}
+a:hover {
+    color: #6dd36b;
+}
+.mbd{
+    margin-top:40px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding: 6px 20px !important;;
+    font-size: 30px !important;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #fff !important;
+    font-size: 20px;
+}
+input.submit-btn{
+    margin: 6px 125px 0 75px;
+    padding: 0px 42px;
+    font-size: 25px;
+}

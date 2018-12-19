@@ -1,0 +1,24 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<div class="localib">
+    <h1>Welcome to Local Library Home</h1>
+        <p>Welcome to <em>LocalLibrary</em>.</p>
+    <h2>Dynamic content</h2>
+    <p>The library has the following record counts:</p>
+    <ul>
+        <li><strong>Books:</strong> {{ num_books }}</li>
+        <li><strong>Copies:</strong> {{ num_instances }}</li>
+        <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
+        <li><strong>Authors:</strong> {{ num_authors }}</li>
+    </ul>
+</div>
+<div style="text-align:center;" class="visitors">
+    <button class="btn-success">Visitors: {{num_visits}} </button>
+</div>
+{% endblock %}
+return render(
+request,
+'index.html',
+context={'num_books':num_books,'num_instances':num_instances,'num_instances_available':
+num_instances_available,'num_authors':num_authors, 'num_visits':num_visits},
+)
